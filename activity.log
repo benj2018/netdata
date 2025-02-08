@@ -47,3 +47,6 @@
 2025-06-06 13:22:00 | WARN | repo=netdata | action=commit
 2025-11-21 16:00:00 | WARN | repo=netdata | action=commit
 2025-05-15 13:53:00 | WARN | repo=netdata | action=commit
+2025-07-17 21:28:00 | WARN | repo=netdata | action=edit | files=1
+2025-04-15 08:02:00 | WARN | repo=netdata | action=edit | files=3
+2025-02-08 11:17:00 | DEBUG | repo=netdata | action=commit
