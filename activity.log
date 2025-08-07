@@ -59,3 +59,5 @@
 2025-12-04 16:29:00 | INFO | repo=netdata | action=commit
 2025-12-05 11:32:00 | DEBUG | repo=netdata | action=commit
 2025-12-05 14:40:00 | INFO | repo=netdata | action=commit
+2025-01-17 20:11:00 | WARN | repo=netdata | action=pull
+2025-08-07 07:28:00 | WARN | repo=netdata | action=commit
