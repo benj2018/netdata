@@ -137,7 +137,7 @@ jobs:
       - name: Build Image
         id: build
         if: needs.file-check.outputs.run == 'true'
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           platforms: ${{ matrix.platform }}
           tags: netdata/netdata:test
@@ -253,7 +253,7 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
       - name: Build Image
         id: build
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           platforms: ${{ matrix.platform }}
           cache-from: type=local,src=/tmp/build-cache
@@ -408,7 +408,7 @@ jobs:
           password: ${{ secrets.NETDATABOT_QUAY_TOKEN }}
       - name: Build Image
         id: build
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           platforms: ${{ matrix.platform }}
           cache-from: type=local,src=/tmp/build-cache
@@ -564,7 +564,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build Image
         id: build
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         with:
           platforms: ${{ matrix.platform }}
           cache-from: type=local,src=/tmp/build-cache
