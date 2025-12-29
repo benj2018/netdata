@@ -808,7 +808,7 @@ jobs:
           attempt_delay: 2000
       - name: Authenticate to GCS
         id: gcs-auth
-        uses: google-github-actions/auth@v2
+        uses: google-github-actions/auth@v3
         with:
           project_id: ${{ secrets.GCP_NIGHTLY_STORAGE_PROJECT }}
           credentials_json: ${{ secrets.GCS_STORAGE_SERVICE_KEY_JSON }}
