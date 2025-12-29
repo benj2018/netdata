@@ -41,7 +41,7 @@ require (
 	github.com/prometheus/prometheus v2.5.0+incompatible
 	github.com/stretchr/testify v1.9.0
 	github.com/tomasen/fcgi_client v0.0.0-20180423082037-2bb3d819fd19
-	github.com/valyala/fastjson v1.6.4
+	github.com/valyala/fastjson v1.6.7
 	github.com/vmware/govmomi v0.36.1
 	go.mongodb.org/mongo-driver v1.14.0
 	golang.org/x/net v0.22.0
